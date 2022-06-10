@@ -1,0 +1,88 @@
+
+$warning: #FDE24B;
+$primary: #F398CD;
+$info: #5361F0;
+$secondary: #57E8B5;
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Oxygen:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Oxygen' !important;
+}
+
+.btn {
+    font-family: 'Fira' !important;
+}
+
+.btn-info {
+    background-color: #5361F0 !important;
+    border-color: #5361F0 !important;
+}
+.btn-info:hover {
+    background-color: #57E8B5 !important;
+    border-color: #57E8B5 !important;
+}
+
+.btn-secondary {
+    background-color: #57E8B5 !important;
+    border-color: #57E8B5 !important;
+}
+
+.btn-secondary:hover {
+    background-color: #F398CD !important;
+    border-color: #F398CD !important;
+}
+
+.btn-primary {
+    background-color: #F398CD !important;
+    border-color: #F398CD !important;
+}
+
+.btn-primary:hover {
+    background-color: #FDE24B !important;
+    border-color: #FDE24B !important;
+}
+
+.strat:hover {
+    border-bottom: 2px solid #FDE24B;
+}
+.redaction:hover {
+    border-bottom: 2px solid #F398CD;
+}
+.social:hover {
+    border-bottom: 2px solid #57E8B5 ;
+}
+.dev:hover {
+    border-bottom: 2px solid #5361F0;
+}
+
+.real:hover {
+    border-bottom: 2px solid #000;
+}
+
+.blog:hover {
+    border-bottom: 2px solid #000;
+}
+
+.card {
+    border: none !important;
+}
+.card:hover {
+    transform:scale(1.1) !important;
+}
+
+
+
+@import 'custom';
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.border-2 {
+    border-bottom-width: 2px !important;
+}
